@@ -8,7 +8,7 @@ void main(){
     scanf("%d", &a);
     printf("n is %d \n", a);
     c = a - b;
-    printf("difference is %d \n", c);
+    printf("absolute difference is %d \n", c);
     if(a>b){
         c = c * 3;
         printf("n is greater so triple the difference is %d", c);
