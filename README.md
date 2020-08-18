@@ -1,5 +1,7 @@
 # c programming algorithms
  
+ task-1 to task-75 questions from https://www.w3resource.com/c-programming-exercises/basic-algo/index.php and solved by own. 
+ 
  task-1 : Write a C program to compute the sum of the two given integer values. If the two values are the same, then return triple their sum.
  task-2 : Write a C program to get the absolute difference between n and 51. If n is greater than 51 return triple the absolute difference.
  task-3 : Write a C program to check two given integers, and return true if one of them is 30 or if their sum is 30
