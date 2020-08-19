@@ -1,17 +1,28 @@
 # c programming algorithms
  
  task-1 to task-75 questions from https://www.w3resource.com/c-programming-exercises/basic-algo/index.php and solved by own. 
+
  
  task-1 : Write a C program to compute the sum of the two given integer values. If the two values are the same, then return triple their sum.
+
  task-2 : Write a C program to get the absolute difference between n and 51. If n is greater than 51 return triple the absolute difference.
+
  task-3 : Write a C program to check two given integers, and return true if one of them is 30 or if their sum is 30
+
  task-4 : Write a C program to check a given integer and return true if it is within 10 of 100 or 200.
- task-5 :
- task-6 :
- task-7 :
- task-8 :
- task-9 :
- task-10 :
+
+ task-5 : Write a C program to check whether a given positive number is a multiple of 3 or a multiple of 7. 
+
+ task-6 : Write a C program to check whether a given temperatures is less than 0 and the other is greater than 100.
+
+ task-7 : Write a C program to check two given integers whether either of them is in the range 100..200 inclusive.
+
+ task-8 : Write a C program to check whether three given integer values are in the range 20..50 inclusive. Return true if 1 or more of them are in the said range otherwise return false.
+
+ task-9 : Write a C program to check whether two given integer values are in the range 20..50 inclusive. Return true if 1 or other is in the said range otherwise false.
+
+ task-10 : Write a C program to check which number nearest to the value 100 among two given integers. Return 0 if the two numbers are equal.
+ 
  task-11 :
  task-12:
  task-13 :

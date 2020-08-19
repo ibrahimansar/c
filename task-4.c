@@ -3,10 +3,20 @@
 #include<stdio.h>
 
 void main(){
-    int a;
+    int a, b, c, d, e;
     printf("enter an integer");
     scanf("%d", &a);
-    if( abs(a - 100) <= 10 || abs(a - 200) <= 10){
+    b = 100;
+    c = 200;
+    d = a+b;
+    e = a+c;
+    if(d<0){
+        d = -d;
+    }
+    if(e<0){
+        e = -e;
+    }
+    if( (a - 100) <= 10 || (a - 200) <= 10){
         printf("true");
     };
 }
