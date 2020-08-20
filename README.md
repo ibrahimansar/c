@@ -23,21 +23,36 @@
 
  task-10 : Write a C program to check which number nearest to the value 100 among two given integers. Return 0 if the two numbers are equal.
  
- task-11 :
- task-12:
- task-13 :
- task-14 :
- task-15 :
- task-16 :
- task-17 :
- task-18 :
- task-19 :
- task-20 :
- task-21 :
- task-22 :
- task-23 :
- task-24 :
- task-25 :
+ task-11 : Write a C program to check whether two given integers are in the range 40..50 inclusive, or they are both in the range 50..60 inclusive
+
+ task-12 : Write a C program to find the larger value from two positive integer values that is in the range 20..30 inclusive, or return 0 if neither is in that range.
+
+ task-13 : Write a C program to check if two given non-negative integers have the same last digit. Go to the editor
+
+ task-14 : Write a C program to check whether the sequence of numbers 1, 2, 3 appears in a given array of integers somewhere.
+
+ task-15 : Write a C program to count the number of two 5's are next to each other in an array of integers. Also count the situation where the second 5 is actually a 6
+
+ task-16 : Write a C program to check if a triple is presents in an array of integers or not. If a value appears three times in a row in an array it is called a triple.
+
+ task-17 : Write a C program to compute the sum of the two given integers. If the sum is in the range 10..20 inclusive return 30.
+
+ task-18 : Write a C program that accept two integers and return true if either one is 5 or their sum or difference is 5.
+
+ task-19 : Write a C program to to test whether a given non-negative number is a multiple of 13 or it is one more than a multiple of 13.
+
+ task-20 : Write a C program to check whether a given non-negative number is a multiple of 3 or 7, but not both.
+
+ task-21 : Write a C program to check whether a given number is within 2 of a multiple of 10.
+
+ task-22 : Write a C program to compute the sum of the two given integers. If one of the given integer value is in the range 10..20 inclusive return 18.
+
+ task-23 : Write a C program to check whether it is possible to add two integers to get the third integer from three given integers.
+
+ task-24 : Write a C program to check whether y is greater than x, and z is greater than y from three given integers x,y,z
+
+ task-25 : Write a C program to check whether two or more non-negative given integers have the same rightmost digit.
+ 
  task-26 :
  task-27 :
  task-28 :
