@@ -1,6 +1,6 @@
 // Write a C program to get the absolute difference between n and 51. If n is greater than 51 return triple the absolute difference
 
-#include<stdio.h>
+#include <stdio.h>
 
 void main(){
     int a ,b=51,c;
