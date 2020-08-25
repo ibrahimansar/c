@@ -2,13 +2,15 @@
 
 #include <stdio.h>
 
-#define int char
-int main()
-{
-    int i=65;
-    printf("sizeof(i)=%d",sizeof(i));
+void main(){
+    int a[10], i;
+    printf("enter 10 numbers \n");
+    for(i = 0; i < 10; i++){
+        scanf("%d", &a[i]);
+    }
+    for(i = 0; i < 10; i++){
+        if(a[i] == a[i+1] && a[i+2] == a[i]){
+            printf("%d is tripled \n", a[i]);
+        }
+    }
 }
-
-
-
-
