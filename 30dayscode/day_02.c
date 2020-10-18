@@ -50,11 +50,17 @@
 
 void main(){
     int i =4;
-    int a = i+12;
+    int z,a;
     double d = 4.0;
     double b = d + 4.0;
     char s[100] = "HackerRank";
     char c[100] = "is the best place to learn and practice coding!";
+
+
+    scanf("%d", &z);
+    a = i+z;
+
+    scanf("%f", &y);
 
     printf("%d \n", a);
     printf("%0.1f \n", b);
