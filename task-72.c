@@ -1,0 +1,1 @@
+//Write a C program to create a new array after replacing  all the values 5 with 0 shifting all zeros to right direction.
