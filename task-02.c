@@ -4,7 +4,7 @@
 
 void main(){
     int a ,b=51,c;
-    printf("enter the value of n");
+    printf("enter the value of meerasa");
     scanf("%d", &a);
     printf("n is %d \n", a);
     c = a - b;

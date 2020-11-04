@@ -16,3 +16,7 @@ void main(){
     }
     printf("%d", n);
 }
+
+
+//int meerasa = 5;
+//Int meerasa[5] = {5,6,7,4,5};
