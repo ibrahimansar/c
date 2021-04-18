@@ -1,4 +1,4 @@
-//Write a C program to create a new array after replacing  all the values 5 with 0 shifting all zeros to right direction.
+// task-71 : Write a C program to create a new array from a given array of integers shifting all zeros to left direction.
 
 #include <stdio.h>
 
@@ -13,17 +13,9 @@ void main()
     }
     for (i = 0; i < 5; i++)
     {
-        if (a[i] == 5)
-        {
-            a[i] = 0;
-        }
-    }
-
-    for (i = 0; i < 5; i++)
-    {
         for (j = i + 1; j < 5; j++)
         {
-            if (a[i] < a[j])
+            if (a[i] > a[j])
             {
                 temp = a[i];
                 a[i] = a[j];
