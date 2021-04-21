@@ -1,11 +1,26 @@
-
-// for (i = 0; i < 5; i++)
-// {
-//     if (a[i] == 5)
-//     {
-//         for (j = i + 1; i < 5; j++)
-//         {
-//             b[j] = a[j];
-//         }
-//     }
-// }
+    // scanf("%d", &n);
+    // for (i = 0; i < n; i++)
+    // {
+    //     scanf("%d", &a[i]);
+    // }
+    // x = a[0];
+    // y = a[(n / 2) + 1];
+    // z = a[-1];
+    // if (x > y)
+    // {
+    //     if (x > z)
+    //     {
+    //         printf("first number is greatest");
+    //     }
+    // }
+    // else if (y > x)
+    // {
+    //     if (y > z)
+    //     {
+    //         printf("middle number is greatest");
+    //     }
+    // }
+    // else
+    // {
+    //     printf("last number is greatest");
+    // }
