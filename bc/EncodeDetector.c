@@ -63,7 +63,7 @@ int String_GetEncoding(char *string)
 int main()
 {
 	
-  writeFile("c://abc.txt");
-  readFile("c://abc.txt");
-  findEncode("c://abc.txt");
+  writeFile("c://encodeFile.txt");
+  readFile("c://encodeFile.txt");
+  findEncode("c://encodeFile.txt");
 }
