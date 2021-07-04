@@ -3,11 +3,35 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main()
+void writeFile(char *fname)
 {
-//  findEncode("C://UTF-8_TestCase//TestCase.txt");      //-->Not Working
-  findEncode("C://utf.txt");      //-->Working
+     FILE *fp;
+     char str[50] = "___";
+      fp = fopen(fname, "w");
+      if (fp == NULL)
+      {
+        perror("File could not be opened for writing\n");
+      }
+      else
+      {
+        printf("File created\n");
+      }
+      fprintf (fp, " %s ", str) ;
+      fclose(fp);
 }
+
+void readFile(char *fname)
+{
+     char str[50];
+     printf("Reading from the file \n");
+
+     FILE *fr;
+     fr=fopen(fname,"r");
+     fscanf (fr, " %s", str) ;
+     fclose(fr);
+     printf("the data from the file %s \n", str);
+}
+
 
 int findEncode(char *fname){
      char str[50];
@@ -35,3 +59,11 @@ int String_GetEncoding(char *string)
       flags = (c = string[i++]) ? flags | ((!(flags % 4) &&  c > 0x7F) << 3) : flags | 1 | (!(i & 1) << 1) | ((string[i] == 0) << 2);
     return (flags & 1) + ((flags & 2) != 0) + ((flags & 4) != 0) + ((flags & 8) != 0);
   }
+
+int main()
+{
+	
+//  writeFile("test.txt");
+//  readFile("test.txt");
+  findEncode("c://utf-8.txt");
+}
